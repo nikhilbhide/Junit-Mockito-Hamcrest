@@ -11,12 +11,14 @@ I prefer to use TDD approach and for unit testing and integration testing, I pre
 -----------------------------------------------------------------------------------------------------------------------
 This short tutorial demonstrates how to use Mockito, Junit and HamCrest for unit testing of Order Management System.
 Order Management System is a small ecommerce application.
+
 -----------------------------------------------------------------------------------------------------------------------
 ###  How to build?
 
 The project is based on maven and can be built using maven commands.
 Run mvn install or run mvn package
 It requires Java 1.8
+
 -----------------------------------------------------------------------------------------------------------------------
 ### Junit
 Popular testing framework for Java. It has been instrumental in TDD and provides a basic testing framework for Java application. Since Junit 4.x, it's possible to use different annotations to write test cases.
@@ -44,6 +46,7 @@ verify() - Mockito keeps track of called methods and parameters passed to it. Ve
 verify() can be used to check whether method is called with certain parameters. It can be used to check whether method was called with right parameters.
 @injectMocks - For depedency injection via Mockito
 doReturn(...).when(...).methodCall - It does not actually call the method.
+
 -----------------------------------------------------------------------------------------------------------------------
 ### HamCrest
 Hamcrest is a testing framework which allows checking condition with predefined matchers or custom matchers.
