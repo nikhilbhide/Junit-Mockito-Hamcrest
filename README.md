@@ -38,12 +38,16 @@ For that some kind of mocking is required. There are many alternatives such as t
 Among them, mocks are popular. A mock object can be created from interface or class.
 
 @mock or mock() - create mock object
+
 when(....).thenReturn(....) call chain - specify a condition and a return value for this condition
 It actually calls the method.
+
 @Spy or the spy() method - wrap a real object. Every call, unless specified otherwise, is delegated to the object.
 It can be used for partial mocking.
+
 verify() - Mockito keeps track of called methods and parameters passed to it. Verify() can be used for behavior testing.
 verify() can be used to check whether method is called with certain parameters. It can be used to check whether method was called with right parameters.
+
 @injectMocks - For depedency injection via Mockito
 doReturn(...).when(...).methodCall - It does not actually call the method.
 
